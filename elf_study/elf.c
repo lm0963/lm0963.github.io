@@ -13,13 +13,13 @@ typedef struct {
 	Elf32_Half e_type;
 	Elf32_Half e_machine;
 	Elf32_Word e_version;
-	Elf32_Addr e_entry;
-	Elf32_Off e_phoff;
-	Elf32_Off e_shoff;
-	Elf32_Word e_flags;
-	Elf32_Half e_ehsize;
-	Elf32_Half e_phentsize;
-	Elf32_Half e_phnum;
+	Elf32_Addr e_entry;	//24
+	Elf32_Off e_phoff;	//28
+	Elf32_Off e_shoff;	//32
+	Elf32_Word e_flags;	//36
+	Elf32_Half e_ehsize;//40
+	Elf32_Half e_phentsize;	//42
+	Elf32_Half e_phnum;	//44
 	Elf32_Half e_shentsize;
 	Elf32_Half e_shnum;
 	Elf32_Half e_shstrndx;
